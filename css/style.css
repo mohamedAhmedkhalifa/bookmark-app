@@ -1,0 +1,132 @@
+body{
+    background-color: #F7ECDE;
+}
+h1{
+    color: #352E28;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+    /* background-color: #FEC260; */
+    position: relative;
+    margin-bottom: 50px;
+}
+h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 2px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+h1:hover::before{
+    height: 60%;
+}
+h2{
+    /* color: #5FA756; */
+    background-image: linear-gradient(to right,#3EA55B ,#B2AB49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Righteous', sans-serif;
+}
+.icontitle{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #d99c39;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+label{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 600;
+}
+button.submit{
+    background-color: #D1512D;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+    padding: 7px 50px;
+}
+button.submit:hover{
+    background-color: #D1512D;
+    color: #FAFAFA;
+}
+.bookmark .favorite{
+    border-top: #352e28 dotted 2px;
+    border-bottom: #352e28 dotted 2px;
+}
+table .button1{
+    color: #FFFFFF;
+    background-color: #9EB23B;
+    border: none;
+}
+table .button1:hover{
+    background-color: #8A9E23;
+    color: #FFFFFF;
+}
+
+/* ================================ */
+#box{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #0007;
+}
+
+#subBox{
+    position: fixed;
+    top: 32%;
+    left: 33%;
+}
+
+.caption{
+    width: 500px;
+    z-index: 10;
+}
+
+#box i{
+    cursor: pointer;
+}
+
+.caption p{
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+}
+
+.shapes span:nth-child(1){
+    background-color: #f15f5d;
+}
+.shapes span:nth-child(2){
+    background-color: #febe2e;
+}
+.shapes span:nth-child(3){
+    background-color: #4db748;
+}
+
+.shapes span{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.mistakes i{
+    color: #bb4120;
+}
+
+.mistakes li{
+    font-size: 18px;
+    padding-top: 10px;
+}
